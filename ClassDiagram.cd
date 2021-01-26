@@ -15,16 +15,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="display" Collapsed="true">
-    <Position X="9.5" Y="2.25" Width="1.5" />
+    <Position X="8.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>display.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="pressure_sensor" Collapsed="true">
-    <Position X="9.5" Y="0.75" Width="1.5" />
+  <Class Name="pressure_sensor">
+    <Position X="11" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAEAAIAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>pressure_sensor.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -47,6 +47,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>filesystem_sd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="depth_gauge">
+    <Position X="11" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>depth_gauge.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

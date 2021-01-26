@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="clock.cpp" />
+    <ClCompile Include="depth_gauge.cpp" />
     <ClCompile Include="display.cpp" />
     <ClCompile Include="filesystem_sd.cpp" />
     <ClCompile Include="pressure_sensor.cpp" />
@@ -153,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clock.h" />
+    <ClInclude Include="depth_gauge.h" />
     <ClInclude Include="display.h" />
     <ClInclude Include="filesystem_sd.h" />
     <ClInclude Include="pressure_sensor.h" />
