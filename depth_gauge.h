@@ -1,4 +1,7 @@
 #pragma once
+
+#include "main.h"
+
 class depth_gauge
 {
 private:
@@ -9,6 +12,7 @@ private:
 public:
 
 	double get_current_depth(void);
+	void scheduled_task(void);
 
 };
 

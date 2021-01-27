@@ -144,6 +144,7 @@
     <ClCompile Include="display.cpp" />
     <ClCompile Include="filesystem_sd.cpp" />
     <ClCompile Include="pressure_sensor.cpp" />
+    <ClCompile Include="scheduler.cpp" />
     <ClCompile Include="sd_card.cpp" />
     <ClCompile Include="spi_display.cpp" />
     <ClCompile Include="spi_pressure_sensor.cpp" />
@@ -158,6 +159,7 @@
     <ClInclude Include="display.h" />
     <ClInclude Include="filesystem_sd.h" />
     <ClInclude Include="pressure_sensor.h" />
+    <ClInclude Include="scheduler.h" />
     <ClInclude Include="sd_card.h" />
     <ClInclude Include="spi_display.h" />
     <ClInclude Include="spi_pressure_sensor.h" />

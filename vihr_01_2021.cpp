@@ -1,11 +1,17 @@
 ﻿// vihr_01_2021.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include <iostream>
+#include "main.h"
+
+depth_gauge depth_gauge_obj;
+scheduler scheduler_obj(depth_gauge_obj);
 
 int main()
 {
-    std::cout << "Hello World!\n";
+   
+    std::cout << "Elektrospusk Schema\n";
+
+    scheduler_obj.start_scheduler(3, depth_gauge_obj);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
